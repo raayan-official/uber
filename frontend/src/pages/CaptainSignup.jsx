@@ -167,9 +167,9 @@ const CaptainSignup = () => {
               required
             >
               <option value="">Select Vehicle Type</option>
-              <option value="Car">car</option>
-              <option value="Motorcycle">moto</option>
-              <option value="Autorickshaw">auto</option>
+              <option value="car">car</option>
+              <option value="moto">moto</option>
+              <option value="auto">auto</option>
             </select>
             <input
               value={vehicleModel}
