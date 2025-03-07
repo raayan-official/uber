@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { UserDataContext } from "../context/UserContext";
 import axios from "axios";
 
-const BASE_URL = import.meta.env.VITE_BASE_URL || "http://localhost:5000";
+const BASE_URL = import.meta.env.VITE_BASE_URL || "https://uber-3m2i.onrender.com";
 
 const UserProtectWrapper = ({ children }) => {
      const navigate = useNavigate();
