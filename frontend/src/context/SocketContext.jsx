@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const BASE_URL = import.meta.env.VITE_BASE_URL || "https://uber-3m2i.onrender.com";
+const BASE_URL = import.meta.env.VITE_BASE_URL || "https://uber-sqyu.onrender.com";
 export const SocketContext = createContext();
 
 const SocketProvider = ({ children }) => {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { CaptainDataContext } from '../context/CaptainContext';
 import axios from "axios";
-const BASE_URL = import.meta.env.VITE_BASE_URL || "https://uber-3m2i.onrender.com";
+const BASE_URL = import.meta.env.VITE_BASE_URL || "https://uber-sqyu.onrender.com";
 
 const CaptainLogin = () => {
   const [email, setEmail] = useState("");
